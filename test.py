@@ -33,7 +33,7 @@ class CarClassTest(unittest.TestCase):
                              [toyota.name, toyota.model],
                              msg='The car name and model should be a property of the car')
 
-    # @unittest.skip("to work on")
+    @unittest.skip("to work on")
     def test_car_doors(self):
         opel = Car('Opel', 'Omega 3')
         porshe = Car('Porshe', '911 Turbo')
